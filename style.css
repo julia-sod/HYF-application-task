@@ -1,0 +1,217 @@
+/* Global */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap");
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  background-color: #f7f7f7;
+  color: #343648;
+}
+
+/* Link text decorations are removed here */
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+/* Social media and menu icons */
+.top-corner {
+  float: right;
+  margin-right: 30px;
+  padding: 20px;
+  color: #6d6d6d;
+  font-size: 20px;
+}
+
+.social-media {
+  display: inline;
+}
+
+.menu {
+  display: inline;
+  margin-left: 20px;
+}
+
+/* Logo and search bar */
+.logo {
+  height: 80px;
+  margin-top: 15px;
+}
+
+.title {
+  margin-bottom: 30px;
+  margin-left: -10px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.main-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.searchbar input {
+  width: 600px;
+  height: 45px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.searchbar button {
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  margin-left: -10px;
+  padding: 0;
+  border-left: #ffffff;
+}
+
+.searchbar button:hover {
+  /* Search Icon and background changes color on hover */
+  color: #ffffff;
+  background-color: #66ad57;
+  cursor: pointer;
+}
+
+.searchbar {
+  text-align: center;
+}
+
+.fa-star,
+.fa-star-half-alt {
+  font-size: 10px;
+}
+
+/* Global showcase rules */
+.showcase {
+  min-height: 700px;
+  background: url("https://cdn.glitch.com/d670c774-e63b-4ab0-af46-480ab8944372%2Fbackground.svg?v=1581174478565")
+    no-repeat 150px;
+}
+
+.showcase h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.showcase-text {
+  margin-left: 180px;
+  margin-top: 120px;
+}
+
+.showcase button {
+  height: 40px;
+  width: 230px;
+  border-radius: 10px;
+  background-color: #668fff;
+  color: #ffffff;
+}
+
+.reviews {
+  font-size: 12px;
+  line-height: 0;
+  margin-top: 30px;
+}
+
+.boxes h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.box {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin: 0px 1%;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Boxes are aligned this way. I study flex and will do it better in the future */
+.boxes {
+  width: 80%;
+  margin: auto;
+}
+
+.container h1 {
+  text-size: 24px;
+  padding-top: 30px;
+}
+
+.container button {
+  height: 40px;
+  width: 230px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+}
+
+.container {
+  text-align: center;
+  color: #ffffff;
+  margin-top: -30px;
+}
+
+/* For each container different rules apply */
+.text1 {
+  background-color: #58b792;
+  margin-top: 200px;
+  padding-top: 200px;
+}
+
+.text2 {
+  background-color: #f5a339;
+}
+
+.text3 {
+  background-color: #5f63bd;
+}
+
+.text4 {
+  background-color: #86cef5;
+}
+
+.text1 button {
+  background-color: #2c5b48;
+  border-radius: 5px;
+}
+
+.text2 button {
+  background-color: #7a511d;
+  border-radius: 5px;
+}
+
+.text3 button {
+  background-color: #2e315e;
+  border-radius: 5px;
+}
+
+.text4 button {
+  background-color: #41658d;
+  border-radius: 5px;
+}
+
+.back-search {
+  font-weight: bold;
+}
+
+.relative-positioned {
+  position: relative;
+}
+
+.bottom-corner {
+  position: absolute;
+  right: 20px;
+  color: #283d49;
+  font-size: 15px;
+}
